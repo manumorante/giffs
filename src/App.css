@@ -23,7 +23,9 @@ a {
 }
 
 .App-content {
-  padding: var(--space-lg);
+  max-width: 800px;
   min-height: 100vh;
+  margin: 0 auto;
+  padding: var(--space-lg);
 }
 
