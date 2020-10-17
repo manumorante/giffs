@@ -8,40 +8,27 @@
   --font-size-sm: 0.75rem;
   --font-size-md: 1rem;
   --font-size-lg: 1.25rem;
+
+  --color-dark-1: #1b1b1b;
+  --color-light-1: #808080;
 }
 
-.App {
-  text-align: center;
+body {
+  background-color: var(--color-dark-1);
+  color: var(--color-light-1);
+}
+
+a {
+  color: #808080;
 }
 
 .App-content {
-  background-color: #fdfdfd;
+  padding: var(--space-lg);
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: #808080;
 }
 
-.gifs-list {
-  display: grid;
-}
-
-.gif {
-  display: inline-block;
-  margin-bottom: var(--space-lg);
-}
-
-.gif__img {
-  display: inline-block;
-  max-width: 80%;
-  border-radius: var(--space-sm);
-}
-
-.gif__title {
-  display: block;
-  margin-top: var(--space-md);
-  font-size: var(--font-size-md);
-}

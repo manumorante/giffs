@@ -1,0 +1,15 @@
+.gif {
+  display: inline-block;
+  margin-bottom: var(--space-lg);
+}
+
+.gif__img {
+  display: block;
+  max-width: 100%;
+}
+
+.gif__title {
+  display: block;
+  margin-top: var(--space-sm);
+  font-size: var(--font-size-sm);
+}

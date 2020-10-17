@@ -1,0 +1,8 @@
+.Search {
+  margin-bottom: var(--space-lg);
+}
+
+.Search__input {
+  width: 100%;
+  padding: var(--space-md);
+}

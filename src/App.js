@@ -1,22 +1,28 @@
 import React, { useState } from 'react';
 import { Link, Route } from 'wouter';
 import './App.css';
-import ListOfGifs from './components/ListOfGifs';
+import Home from './pages/Home';
+import SearchResults from './pages/SearchResults';
+import Detail from './pages/Detail';
 
 export default function App() {
-  const [keyword, setKeyword] = useState('404')
 
   return (
     <div className="App">
       <section className="App-content">
-        <h1>Giffs</h1>
-        <Link to='/'>home</Link>
-        <Link to='/gifs/panda'>panda</Link>
-        <Link to='/gifs/matrix'>matrix</Link>
+        <h1><Link to='/'>Giffs</Link></h1>
 
         <Route
-          component={ListOfGifs}
-          path='/gifs/:keyword' />
+          component={Home}
+          path='/' />
+
+        <Route
+          component={SearchResults}
+          path='/search/:keyword' />
+
+        <Route
+          component={Detail}
+          path='/gif/:id' />
       </section>
     </div>
   );
