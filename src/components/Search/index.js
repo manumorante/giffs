@@ -15,6 +15,7 @@ export default function Search () {
     setKeyword(evt.target.value)
   }
 
+
   return <div className='Search'>
     <form onSubmit={handleSubmit}>
       <input
@@ -22,7 +23,7 @@ export default function Search () {
         className='Search__input'
         onChange={handleChange}
         value={keyword}
-        placeholder={keyword || 'Search gifs'}
+        placeholder='Search for gifs!'
         />
     </form>
   </div>

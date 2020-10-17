@@ -4,6 +4,7 @@ import './App.css';
 import Home from './pages/Home';
 import SearchResults from './pages/SearchResults';
 import Detail from './pages/Detail';
+import Search from './components/Search';
 
 export default function App() {
 
@@ -11,6 +12,8 @@ export default function App() {
     <div className="App">
       <section className="App-content">
         <h1><Link to='/'>Giffs</Link></h1>
+
+        <Search />
 
         <Route
           component={Home}
