@@ -11,11 +11,11 @@ export default function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <h1><Link to='/'>Giffs</Link></h1>
-
-        <Search />
-
         <Router base={process.env.PUBLIC_URL}>
+          <h1><Link to='/'>Giffs</Link></h1>
+
+          <Search />
+          
           <Route
             component={Home}
             path='/' />
