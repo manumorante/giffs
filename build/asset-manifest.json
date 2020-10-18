@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/giffs/build/static/css/main.be809078.chunk.css",
-    "main.js": "/giffs/build/static/js/main.6a8b2c64.chunk.js",
-    "main.js.map": "/giffs/build/static/js/main.6a8b2c64.chunk.js.map",
+    "main.css": "/giffs/build/static/css/main.55d7ba37.chunk.css",
+    "main.js": "/giffs/build/static/js/main.2793c801.chunk.js",
+    "main.js.map": "/giffs/build/static/js/main.2793c801.chunk.js.map",
     "runtime-main.js": "/giffs/build/static/js/runtime-main.239f2e0e.js",
     "runtime-main.js.map": "/giffs/build/static/js/runtime-main.239f2e0e.js.map",
     "static/js/2.eef22c3b.chunk.js": "/giffs/build/static/js/2.eef22c3b.chunk.js",
     "static/js/2.eef22c3b.chunk.js.map": "/giffs/build/static/js/2.eef22c3b.chunk.js.map",
     "index.html": "/giffs/build/index.html",
-    "precache-manifest.db5cb16fb684f26ee3aea0c95f40e455.js": "/giffs/build/precache-manifest.db5cb16fb684f26ee3aea0c95f40e455.js",
+    "precache-manifest.34546a97e9a215eee1585c4a38dbe2c6.js": "/giffs/build/precache-manifest.34546a97e9a215eee1585c4a38dbe2c6.js",
     "service-worker.js": "/giffs/build/service-worker.js",
-    "static/css/main.be809078.chunk.css.map": "/giffs/build/static/css/main.be809078.chunk.css.map",
+    "static/css/main.55d7ba37.chunk.css.map": "/giffs/build/static/css/main.55d7ba37.chunk.css.map",
     "static/js/2.eef22c3b.chunk.js.LICENSE.txt": "/giffs/build/static/js/2.eef22c3b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.239f2e0e.js",
     "static/js/2.eef22c3b.chunk.js",
-    "static/css/main.be809078.chunk.css",
-    "static/js/main.6a8b2c64.chunk.js"
+    "static/css/main.55d7ba37.chunk.css",
+    "static/js/main.2793c801.chunk.js"
   ]
 }

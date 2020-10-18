@@ -7,3 +7,10 @@
   width: 100%;
   padding: var(--space-md);
 }
+
+/* Note: WIP: Button component */
+.Search__button {
+  width: 100%;
+  padding: var(--space-md);
+}
+

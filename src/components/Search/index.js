@@ -8,7 +8,8 @@ export default function Search () {
 
   const handleSubmit = evt => {
     evt.preventDefault()
-    pushLocation(`/search/${keyword}`)
+    const keywordToUse = keyword || 'sonic'
+    pushLocation(`/search/${keywordToUse}`)
   }
 
   const handleChange = evt => {
@@ -25,6 +26,7 @@ export default function Search () {
         value={keyword}
         placeholder='Search for gifs!'
         />
+      <button className='Search__button'>Search</button>
     </form>
   </div>
 }
