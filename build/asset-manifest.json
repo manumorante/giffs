@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/giffs/build/static/css/main.f7330c9f.chunk.css",
-    "main.js": "/giffs/build/static/js/main.99c62a55.chunk.js",
-    "main.js.map": "/giffs/build/static/js/main.99c62a55.chunk.js.map",
+    "main.js": "/giffs/build/static/js/main.fd2c0eb1.chunk.js",
+    "main.js.map": "/giffs/build/static/js/main.fd2c0eb1.chunk.js.map",
     "runtime-main.js": "/giffs/build/static/js/runtime-main.239f2e0e.js",
     "runtime-main.js.map": "/giffs/build/static/js/runtime-main.239f2e0e.js.map",
     "static/js/2.eef22c3b.chunk.js": "/giffs/build/static/js/2.eef22c3b.chunk.js",
     "static/js/2.eef22c3b.chunk.js.map": "/giffs/build/static/js/2.eef22c3b.chunk.js.map",
     "index.html": "/giffs/build/index.html",
-    "precache-manifest.06a518459d1cd6376f9d2faf844821c1.js": "/giffs/build/precache-manifest.06a518459d1cd6376f9d2faf844821c1.js",
+    "precache-manifest.43edad2008a2b2eb17e09b034afc410e.js": "/giffs/build/precache-manifest.43edad2008a2b2eb17e09b034afc410e.js",
     "service-worker.js": "/giffs/build/service-worker.js",
     "static/css/main.f7330c9f.chunk.css.map": "/giffs/build/static/css/main.f7330c9f.chunk.css.map",
     "static/js/2.eef22c3b.chunk.js.LICENSE.txt": "/giffs/build/static/js/2.eef22c3b.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.239f2e0e.js",
     "static/js/2.eef22c3b.chunk.js",
     "static/css/main.f7330c9f.chunk.css",
-    "static/js/main.99c62a55.chunk.js"
+    "static/js/main.fd2c0eb1.chunk.js"
   ]
 }
