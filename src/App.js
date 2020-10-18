@@ -11,13 +11,11 @@ export default function App() {
   return (
     <div className="App">
       <section className="App-content">
-        <Router base='/giffs/build'>
-          <h1><Link to='/'>Giffs</Link></h1>
-        </Router>
+        <h1><Link to='/'>Giffs</Link></h1>
 
         <Search />
 
-        <Router base='/giffs/build'>
+        <Router base='/giffs'>
           <Route
             component={Home}
             path='/' />
