@@ -8,7 +8,7 @@ export default function Search () {
 
   const handleSubmit = evt => {
     evt.preventDefault()
-    pushLocation(`/${process.env.PUBLIC_URL}/search/${keyword}`)
+    pushLocation(`/search/${keyword}`)
   }
 
   const handleChange = evt => {
