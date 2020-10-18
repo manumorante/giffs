@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, Route } from 'wouter';
+import { Link, Route, Router } from 'wouter';
 import './App.css';
 import Home from './pages/Home';
 import SearchResults from './pages/SearchResults';
@@ -15,17 +15,19 @@ export default function App() {
 
         <Search />
 
-        <Route
-          component={Home}
-          path='/' />
+        <Router base='/giffs'>
+          <Route
+            component={Home}
+            path='/' />
 
-        <Route
-          component={SearchResults}
-          path='/search/:keyword' />
+          <Route
+            component={SearchResults}
+            path='/search/:keyword' />
 
-        <Route
-          component={Detail}
-          path='/gif/:id' />
+          <Route
+            component={Detail}
+            path='/gif/:id' />
+        </Router>
       </section>
     </div>
   );
