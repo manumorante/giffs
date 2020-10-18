@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Detail ({ params }) {
   const { id } = params
-  console.log(id)
 
-  return (
-  <div>detail {id}</div>
-  )
+  return <div>
+    <h1>Gif's details page</h1>
+    <h2>ID: {id}</h2>
+  </div>
 }
 
