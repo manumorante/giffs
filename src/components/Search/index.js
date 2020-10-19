@@ -8,8 +8,8 @@ export default function Search () {
 
   const handleSubmit = evt => {
     evt.preventDefault()
-    const keywordToUse = keyword || 'sonic'
-    pushLocation(`/search/${keywordToUse}`)
+    const keywordToUse = keyword || ''
+    pushLocation(`/${keywordToUse}`)
   }
 
   const handleChange = evt => {
