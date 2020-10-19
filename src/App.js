@@ -1,50 +1,47 @@
 import React from 'react'
 import './App.css'
-import { Link, Route, Router } from 'wouter'
+import { Route, Router } from 'wouter'
 import Home from './pages/Home'
 import SearchResults from './pages/SearchResults'
 import Detail from './pages/Detail'
-import Search from './components/Search'
-import StaticContext from './context/StaticContext'
+
 import { GifsContextProvider } from './context/GifsContext'
-import ActiveLink from './components/ActiveLink'
 import useHashLocation from './hooks/useHashLocation'
+import Info from 'pages/Info'
+import Contact from 'pages/Contact'
+import Header from 'components/Header'
 
 export default function App() {
   return (
-    <StaticContext.Provider value={
-      {
-        name: 'Manu Morante',
-        learning: true
-      }
-    }>
-      <div className="App">
-        <section className="App-content">
-          <Router hook={useHashLocation}>
-            <h1><Link to='/'>Giffs</Link></h1>
+    <div className="App">
+      <section className="App-content">
+        <Router hook={useHashLocation}>
+          <Header />
 
-            <Search />
+          <GifsContextProvider>
+            <Route
+              component={Home}
+              path='/' />
 
-            <p><ActiveLink href="/">Home</ActiveLink></p>
-            <p><ActiveLink href="/panda">Search panda</ActiveLink></p>
-            <p><ActiveLink href="/batman">Search batman</ActiveLink></p>
+            <Route
+              component={SearchResults}
+              path='/search/:keyword' />
 
-            <GifsContextProvider>
-              <Route
-                component={Home}
-                path='/' />
+            <Route
+              component={Detail}
+              path='/gif/:id' />
 
-              <Route
-                component={SearchResults}
-                path='/:keyword' />
+            <Route
+              component={Info}
+              path='/info' />
 
-              <Route
-                component={Detail}
-                path='/gif/:id' />
-            </GifsContextProvider>
-          </Router>
-        </section>
-      </div>
-    </StaticContext.Provider>
+            <Route
+              component={Contact}
+              path='/contact' />
+
+          </GifsContextProvider>
+        </Router>
+      </section>
+    </div>
   );
 }
