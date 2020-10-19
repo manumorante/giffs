@@ -1,6 +1,6 @@
 {
-  "homepage": "/giffs/build",
   "name": "giffs",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

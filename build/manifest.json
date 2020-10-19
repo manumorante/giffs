@@ -1,7 +1,7 @@
 {
   "short_name": "Giffs",
   "name": "Giffs app to learn React",
-  "start_url": "/gifss/build",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"
