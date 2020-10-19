@@ -1,0 +1,7 @@
+.Header {
+  margin-bottom: var(--space-md);
+}
+
+.Header__menu {
+  display: flex;
+}

@@ -9,7 +9,7 @@ export default function Search () {
   const handleSubmit = evt => {
     evt.preventDefault()
     const keywordToUse = keyword || ''
-    pushLocation(`/${keywordToUse}`)
+    pushLocation(`/search/${keywordToUse}`)
   }
 
   const handleChange = evt => {

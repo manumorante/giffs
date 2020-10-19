@@ -2,13 +2,13 @@
   list-style-type: none;
   padding-left: 0;
   display: flex;
-  margin-bottom: var(--space-md);
+  margin: 0;
 }
 
 .Menu__link a {
   display: block;
   padding: var(--space-md);
-  background-color: var(--color-dark-2);
+  background-color: var(--color-dark-3);
   margin-right: var(--space-sm);
   text-decoration: none;
 }
