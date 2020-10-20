@@ -9,6 +9,9 @@
   --font-size-md: 1rem;
   --font-size-lg: 1.25rem;
 
+  --gif-width: 248px;
+  --page-width: 1040px;
+
   --color-primary: #944b9e;
 
   --color-dark-1: #080808;
@@ -35,7 +38,7 @@ a.active {
 }
 
 .App-content {
-  max-width: 940px;
+  max-width: var(--page-width);
   margin: 0 auto;
   padding: var(--space-lg);
   min-height: 100vh;

@@ -1,5 +1,4 @@
 .ListOfGifs {
-  column-count: 2;
+  column-width: var(--gif-width);
   column-gap: var(--space-lg);
 }
-
