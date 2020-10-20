@@ -1,17 +1,12 @@
-import React, { Suspense } from 'react'
+import React from 'react'
 import useNearScreen from 'hooks/useNearScreen'
-import ContentLoader from 'components/ContentLoader'
-
-const TrendingSearches = React.lazy(
-  () => import('./TrendingSearches')
-)
+import TrendingSearches from 'components/TrendingSearches'
+import Spinner from 'components/Spinner'
 
 export default function LazyTrending () {
-  const {isNearScreen, fromRef} = useNearScreen({ distance: '0px'})
+  const {isNearScreen, fromRef} = useNearScreen({ distance: '50px'})
 
   return <div ref={fromRef}>
-    <Suspense fallback={<ContentLoader />}>
-      {isNearScreen ? <TrendingSearches /> : null}
-    </Suspense>
+      {isNearScreen ? <TrendingSearches /> : <Spinner />}
   </div>
 }
