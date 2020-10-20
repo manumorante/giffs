@@ -9,12 +9,12 @@ export default function Home () {
 
   return (
     <div className='Home'>
-      <TrendingSearches />
-
       { loading
       ? <Spinner />
       : <ListOfGifs gifs={gifs} />
       }
+
+      <TrendingSearches />
     </div>
   )
 }
