@@ -1,8 +1,0 @@
-{
-  "short_name": "Giffs",
-  "name": "Giffs app to learn React",
-  "start_url": "http://manumorante.com/giffs",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
