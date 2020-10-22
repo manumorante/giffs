@@ -23,7 +23,7 @@ export function useGifs ({ keyword } = { keyword: 'rick and morty'}) {
   }, [keyword, setGifs, keywordToUse])
 
   useEffect(function(){
-    if(page == INITIAL_PAGE) return
+    if(page === INITIAL_PAGE) return
 
     setLoadingNextPage(true)
 
@@ -33,7 +33,7 @@ export function useGifs ({ keyword } = { keyword: 'rick and morty'}) {
         setLoadingNextPage(false)
       })
 
-  }, [page])
+  }, [page, keywordToUse, setGifs])
 
   return {loading, gifs, loadingNextPage, setPage}
 }

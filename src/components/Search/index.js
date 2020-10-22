@@ -4,7 +4,7 @@ import { useLocation } from 'wouter'
 
 export default function Search () {
   const [keyword, setKeyword] = useState('')
-  const [path, pushLocation] = useLocation()
+  const [path, pushLocation] = useLocation() // eslint-disable-line
 
   const handleSubmit = evt => {
     evt.preventDefault()
